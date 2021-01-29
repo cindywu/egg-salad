@@ -1,9 +1,14 @@
 import React from 'react'
-import { isNullishCoalesce } from 'typescript';
-import logo from './logo.svg'
+import CounterHooks from './CounterHooks'
+
 
 function App() {
-  return <h1>Hello World</h1>
+  return (
+    <>
+      CounterHooks
+      <CounterHooks initialCount={0} />
+    </>
+  )
 }
 
 export default App;
